@@ -1,0 +1,38 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin: 25px;
+  text-align: center;
+}
+
+.newtask {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.newtask > input {
+  margin-right: 10px;
+}
+
+.task {
+  padding: 8px;
+}
+
+li > input, li > span {
+  margin: 6px;
+}
+
+button {
+  margin-left: 4px;
+}
